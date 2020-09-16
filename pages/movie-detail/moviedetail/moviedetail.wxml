@@ -1,0 +1,16 @@
+<view class="moviedetail_1">
+    <view class="moviedetail_3">
+      <image bindtap="icon_1_1_2_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/movie-detail/moviedetail/images/moviedetail_icon_1_1_2.jpg" style=" width:212rpx;height:292rpx;"  mode="scaleToFill" border="0"    class="icon_1_1"></image>
+      <text decode="{{true}}" class="text_1_1">极寒风暴</text>
+      <text decode="{{true}}" class="text_1_2"> Cold Blood Legacy</text>
+      <text decode="{{true}}" class="text_1_3">动作/犯罪/法国
+时长:90分钟2020-9-11中国大陆上映</text>
+      <image bindtap="icon_1_2_5_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/movie-detail/moviedetail/images/moviedetail_icon_1_2_5.jpg" style=" width:94rpx;height:40rpx;"  mode="scaleToFill" border="0"    class="icon_1_2"></image>
+    </view>
+    <view class="moviedetail_8">
+      <text decode="{{true}}" class="text_1_4">演职人员</text>
+      <text decode="{{true}}" class="text_1_5">影片简介</text>
+      <text decode="{{true}}" class="text_1_6">十个月前,杀手亨利刺杀了一名富豪后打算归隐山林。十个月后,富豪的女儿查理前去寻仇却遭受车祸反被亨利救下</text>
+      <image bindtap="icon_1_3_12_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/movie-detail/moviedetail/images/moviedetail_icon_1_3_12.jpg" style=" width:692rpx;height:84rpx;"  mode="scaleToFill" border="0"    class="icon_1_3"></image>
+    </view>
+  </view>

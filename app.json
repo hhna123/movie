@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/index/index",
+    "pages/logs/logs",
+    "pages/cinema/cinema",
+    "pages/my/my",
+    "pages/movie-detail/moviedetail/moviedetail",
+    "pages/movie-detail/movie-detail",
+    "pages/ticket/ticket",
+    "pages/maps/maps"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/Pin1.png",
+        "selectedIconPath": "/images/Pin2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cinema/cinema",
+        "iconPath": "/images/Pin3.png",
+        "selectedIconPath": "/images/Pin4.png",
+        "text": "影院"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/images/Pin5.png",
+        "selectedIconPath": "/images/Pin6.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0066FF",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息效果test"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<import src="../stars/stars-template.wxml" />
+<view class="moviedetail_1">
+    <view class="moviedetail_3">
+      <image bindtap="moviedetail_2_2_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/movie-detail/moviedetail/images/moviedetail_2_2.jpg" style=" width:212rpx;height:292rpx;"  mode="scaleToFill" border="0"    class="moviedetail_2"></image>
+      <text decode="{{true}}" class="moviedetail_4">极寒风暴</text>
+      <view class="moviedetail_6">
+      </view>
+      <text decode="{{true}}" class="moviedetail_7">动作/犯罪/法国
+时长:90分钟2020-9-11中国大陆上映</text>
+      <image bindtap="moviedetail_5_5_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/movie-detail/moviedetail/images/moviedetail_5_5.jpg" style=" width:94rpx;height:40rpx;"  mode="scaleToFill" border="0"    class="moviedetail_5"></image>
+    </view>
+    <view class="moviedetail_8">
+      <text decode="{{true}}" class="moviedetail_9">演职人员</text>
+      <view class="detail-cxnb">
+      <view class="pountion_1"><image src="/images/qq.jpg" style="width:127rpx;height:188rpx"></image></view>
+      <view class="pountion_2"><image src="/images/ee.jpg" style="width:127rpx;height:188rpx"></image></view>
+      <view class="pountion_3"><image src="/images/rr.jpg" style="width:127rpx;height:188rpx"></image></view>
+      <view class="pountion_4"><image src="/images/tt.jpg" style="width:127rpx;height:188rpx"></image></view>
+      </view>
+      <text decode="{{true}}" class="moviedetail_10">影片简介</text>
+      <text decode="{{true}}" class="moviedetail_11">十个月前,杀手亨利刺杀了一名富豪后打算归隐山林。十个月后,富豪的女儿查理前去寻仇却遭受车祸反被亨利救下</text>
+      <view class="good_container">
+      <text bindtap="movie_detail_1" class="good">在线选座</text>
+      </view>
+    </view>
+  </view>

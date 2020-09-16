@@ -1,0 +1,70 @@
+<view class="index_container">
+	<view class="muuo">
+		<view style="display:flex">
+    <view style="display:flex">
+    <image bindtap="maps_1_1" src="/images/22.png" style="width:65rpx;height:55rpx;"></image>
+			<view class="maps-1">长春</view>
+      </view>
+			<view class="search">
+				<icon type="search" class="search-img" size="13" color="#405f80"></icon>
+				<input type="text" placeholder="搜索热门电影" placeholder-class="placeholder" bindfocus="onBindFocus" bindconfirm="onBindConfirm" />
+				<image wx:if="{{searchPanelShow}}" src="/images/aaa/asd.png" class="xx-img" catchtap="onCancelImgTap"></image>
+			</view>
+		</view>
+
+
+		<swiper indicator-dots="true" interval="2000" autoplay="true">
+			<swiper-item>
+				<image src="/images/q.png"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/images/w.png"></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/images/e.png"></image>
+			</swiper-item>
+		</swiper>
+	</view>
+	<view class="first">
+		<image bindtap="pic_1_7_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/index/index/images/index_pic_1_7.jpg" style=" width:127rpx;height:188rpx;" mode="scaleToFill" border="0" class="pic_1"></image>
+		<text bindtap="pic_1_8_click" decode="{{true}}" class="title_1">极寒风暴</text>
+		<text bindtap="pic_1_9_click" decode="{{true}}" class="text_1">豆瓣评分:</text>
+		<text bindtap="pic_1_10_click" decode="{{true}}" class="text_3">导演:弗雷德里克·佩蒂让</text>
+		<text bindtap="pic_1_11_click" decode="{{true}}" class="text_4">主演:让·雷诺莎拉林德</text>
+		<text bindtap="pic_1_12_click" decode="{{true}}" class="text_2">8.5</text>
+		<image bindtap="pic_1_13_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/index/index/images/index_9_9.jpg" style=" width:88rpx;height:33rpx;" mode="scaleToFill" border="0" class="index_9"></image>
+		<view class="font-container">
+			<text class="font">选座</text>
+		</view>
+	</view>
+
+	<view class="first">
+		<image bindtap="pic_1_7_click" src="http://m.qpic.cn/psc?/V11QPRDi1H0fKX/45NBuzDIW489QBoVep5mcY*xXluV7Q5xVCwrlrzgQSmUHEgN1ddSmbOY.LjAsn7fbfo52VzthfJb28c3xT3NpU*V53kbBb0gY20XbhCVdKU!/b&bo=pQFYAgAAAAABF84!&rf=viewer_4&t=5" style=" width:127rpx;height:188rpx;" mode="scaleToFill" border="0" class="pic_1"></image>
+		<text decode="{{true}}" class="title_1">八佰</text>
+		<text decode="{{true}}" class="text_1">豆瓣评分:</text>
+		<text decode="{{true}}" class="text_3">导演:管虎</text>
+		<text decode="{{true}}" class="text_4">主演:王千源 张译 黄志忠</text>
+		<text decode="{{true}}" class="text_2">9.5</text>
+		<image bindtap="index_9_9_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/index/index/images/index_9_9.jpg" style=" width:88rpx;height:33rpx;" mode="scaleToFill" border="0" class="index_9"></image>
+		<view class="font-container">
+			<text class="font">选座</text>
+		</view>
+	</view>
+	<view class="first">
+		<image bindtap="pic_1_7_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/index/index/images/index_pic_1_7.jpg" style=" width:127rpx;height:188rpx;" mode="scaleToFill" border="0" class="pic_1"></image>
+		<text decode="{{true}}" class="title_1">极寒风暴</text>
+		<text decode="{{true}}" class="text_1">豆瓣评分:</text>
+		<text decode="{{true}}" class="text_3">导演:弗雷德里克·佩蒂让</text>
+		<text decode="{{true}}" class="text_4">主演:让·雷诺莎拉林德</text>
+		<text decode="{{true}}" class="text_2">8.5</text>
+		<image bindtap="index_9_9_click" src="http://wx.ymznkf.com/project/wxapp/9564/shoutime/index/index/images/index_9_9.jpg" style=" width:88rpx;height:33rpx;" mode="scaleToFill" border="0" class="index_9"></image>
+		<view class="font-container">
+			<text class="font">选座</text>
+		</view>
+	</view>
+
+
+
+
+
+</view>

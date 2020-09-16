@@ -1,0 +1,268 @@
+button:after {
+  border: none;
+  width: auto;
+}
+
+input {
+  outline: none;
+  border: none;
+  list-style: none;
+  width: auto;
+}
+
+.list_item {
+  float: left;
+}
+
+.ym_hide {
+  display: none;
+}
+
+.ym_show {
+  display: block;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.list_horizontal {
+  width: auto;
+  display: inline-block;
+}
+
+.index_container {
+  white-space: normal;
+  width: 752rpx;
+  height: 1212rpx;
+  clear: both;
+  position: relative;
+  float: left;
+  background-color: #f4f5f4;
+  text-align: left;
+  font-size: 8rpx;
+
+}
+
+.muuo {
+  white-space: normal;
+  width: 752rpx;
+  height: 254rpx;
+  clear: both;
+  float: left;
+  background:linear-gradient(#0066FF,#00FFFF);
+  text-align: left;
+  font-size: 12rpx;
+}
+.pic {
+  white-space: normal;
+  width: 532rpx;
+  height: 67rpx;
+  margin-left: 193rpx;
+  float: left;
+  text-align: left;
+  border-radius: 31rpx;
+  font-size: 60rpx;
+  line-height: 67rpx;
+}
+.index_3 {
+  white-space: normal;
+  width: 238rpx;
+  height: 30rpx;
+  margin-top: 22rpx;
+  margin-left: 27rpx;
+  float: left;
+  text-align: left;
+  color: #f8fbf8;
+  font-size: 25rpx;
+  line-height: 30rpx;
+}
+.index_4 {
+  white-space: normal;
+  width: 38rpx;
+  height: 30rpx;
+  float: left;
+  text-align: left;
+  font-size: 31rpx;
+  line-height: 30rpx;
+}
+
+.first {
+  white-space: normal;
+  width: 705rpx;
+  position: relative;
+  height: 230rpx;
+  clear: both;
+  margin-top: 35rpx;
+  margin-left: 23rpx;
+  float: left;
+  background-color: #fdfffd;
+  text-align: left;
+  font-size: 12rpx;
+
+}
+
+.pic_1 {
+  white-space: normal;
+  width: 127rpx;
+  height: 188rpx;
+  margin-top: 30rpx;
+  margin-left: 29rpx;
+  float: left;
+  position: absolute;
+  text-align: left;
+  font-size: 12rpx;
+  line-height: 188rpx;
+}
+
+.title_1 {
+  white-space: normal;
+  width: 127rpx;
+  height: 33rpx;
+  margin-top: 30rpx;
+  margin-left: 174rpx;
+  float: left;
+  position: absolute;
+  text-align: left;
+  font-weight: bold;
+  font-size: 31rpx;
+  line-height: 33rpx;
+}
+
+ .text_1 {
+  white-space: normal;
+  width: 127rpx;
+  height: 30rpx;
+  margin-top: 78rpx;
+  margin-left: 174rpx;
+  float: left;
+  position: absolute;
+  text-align: left;
+  font-size: 26rpx;
+  line-height: 30rpx;
+}
+
+.text_3 {
+  white-space: normal;
+  width: 335rpx;
+  height: 30rpx;
+  margin-top: 146rpx;
+  margin-left: 174rpx;
+  float: left;
+  position: absolute;
+  text-align: left;
+  font-size: 26rpx;
+  line-height: 30rpx;
+}
+
+.text_4 {
+  white-space: normal;
+  width: 335rpx;
+  height: 35rpx;
+  margin-top: 186rpx;
+  margin-left: 174rpx;
+  float: left;
+  position: absolute;
+  text-align: left;
+  font-size: 26rpx;
+  line-height: 35rpx;
+}
+
+.text_2 {
+  white-space: normal;
+  width: 60rpx;
+  height: 30rpx;
+  margin-top: 78rpx;
+  margin-left: 304rpx;
+  float: left;
+  position: absolute;
+  text-align: left;
+  color: #fd0d0d;
+  font-size: 21rpx;
+  line-height: 30rpx;
+}
+
+.index_9 {
+  white-space: normal;
+  width: 88rpx;
+  height: 33rpx;
+  margin-top: 30rpx;
+  margin-left: 319rpx;
+  float: left;
+  position: absolute;
+  text-align: left;
+  font-size: 31rpx;
+  line-height: 33rpx;
+}
+.swiper{
+  width:700rpx;
+  height:180rpx;
+  margin-left: 25rpx;
+  margin-top: 10rpx;
+}
+swiper image{
+  width:700rpx;
+  height:180rpx;
+  margin-left: 25rpx;
+  margin-top: 10rpx;
+  border-radius: 15px;
+}
+.font-container{
+  border: 1px solid #189ad6;
+  width: 100rpx;
+  height: 60rpx;
+  border-radius: 15px;   /*圆角*/
+  text-align: center;
+  margin-top:75rpx;
+  margin-left: 565rpx;
+  background-color: #189ad6;
+}
+.font{
+  font-size:30rpx;
+  color: #ffff;
+  font-weight: bold;
+  line-height: 50rpx;
+  margin-top:80rpx;
+}
+.search {
+  background-color: #f2f2f2;
+  height: 60rpx;
+  width: 450rpx;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 100rpx; */
+  border-radius: 15px;
+}
+.search-img {
+  margin: auto 0 auto 20rpx;
+}
+.search-panel{
+  position:absolute;
+  top:80rpx;
+}
+
+.xx-img{
+  height: 30rpx;
+  width: 30rpx;
+  margin:auto 0 auto 10rpx;
+}
+.placeholder {
+  font-size: 14px;
+  color: #d1d1d1;
+  margin-left: 20rpx;
+}
+
+.search input {
+  height: 100%;
+  width: 600rpx;
+  margin-left: 20px;
+  font-size: 28rpx;
+}
+.maps-1{
+  font-size: 20px;
+  color: #ffff;
+  margin-left: 30rpx;
+  margin-right: 50rpx;
+  /* width: 100rpx; */
+}
